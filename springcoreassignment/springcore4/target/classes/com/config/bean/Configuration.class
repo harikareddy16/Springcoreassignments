@@ -1,0 +1,7 @@
+Êþº¾   1   (com/config/bean/Configuration  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this *Lcom/config/bean/Configuration; 
+helloWorld ()Lcom/config/bean/Manager; RuntimeVisibleAnnotations -Lorg/springframework/context/annotation/Bean; name Service  com/config/bean/DemoManagerImpl
+  	 
+SourceFile Configuration.java 6Lorg/springframework/context/annotation/Configuration; !               /     *· ±    
+                               [ s     2     » Y· °    
+                                 

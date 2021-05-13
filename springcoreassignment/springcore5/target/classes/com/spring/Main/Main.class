@@ -1,0 +1,11 @@
+Êþº¾   1 8  com/spring/util/Main  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/spring/util/AppMain; main ([Ljava/lang/String;)V  Borg/springframework/context/support/ClassPathXmlApplicationContext  resource-annotation.xml
+     (Ljava/lang/String;)V  
+myemployee  com/spring/pojo/Employee    .org/springframework/context/ApplicationContext    getBean 7(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;	 " $ # java/lang/System % & out Ljava/io/PrintStream;
+  ( ) * toString ()Ljava/lang/String;
+ , . - java/io/PrintStream /  println args [Ljava/lang/String; ac 0Lorg/springframework/context/ApplicationContext; emp Lcom/spring/pojo/Employee; 
+SourceFile Main.java !               /     *· ±    
+                    	       m     #» Y· L+¹  À M² !,¶ '¶ +±    
+        
+    "          # 0 1   
+  2 3    4 5   6    7

@@ -1,0 +1,10 @@
+Êþº¾   1 +  com/springexample/Program  java/lang/Object <init> ()V Code
+  	   LineNumberTable LocalVariableTable this  Lcom/springexample/Program; main ([Ljava/lang/String;)V  Borg/springframework/context/support/ClassPathXmlApplicationContext  	beans.xml
+     (Ljava/lang/String;)V  studentHolder    .org/springframework/context/ApplicationContext   getBean &(Ljava/lang/String;)Ljava/lang/Object;   com/springexample/StudentHolder
+  " #  displayStudentDetails args [Ljava/lang/String; context 0Lorg/springframework/context/ApplicationContext; !Lcom/springexample/StudentHolder; 
+SourceFile Program.java !               /     *· ±    
+                    	       e     » Y· L+¹  À M,¶ !±    
+        
+ 	  
+            $ %   
+  & '     (   )    *

@@ -1,0 +1,16 @@
+Êþº¾   1 G  com/springexample/Holder  java/lang/Object student Lcom/springexample/Student; RuntimeVisibleAnnotations Ljavax/inject/Inject; <init> ()V Code
+   	 
+ LineNumberTable LocalVariableTable this !Lcom/springexample/StudentHolder; 
+getStudent ()Lcom/springexample/Student;	     
+setStudent (Lcom/springexample/Student;)V displayStudentDetails	    java/lang/System   out Ljava/io/PrintStream;   Student Details
+ " $ # java/io/PrintStream % & println (Ljava/lang/String;)V ( --------------- * java/lang/StringBuilder , Student No: 
+ ) . 	 &
+ 0 2 1 com/springexample/Student 3 4 getStudentNo ()I
+ ) 6 7 8 append (I)Ljava/lang/StringBuilder;
+ ) : ; < toString ()Ljava/lang/String; > Student Name: 
+ 0 @ A < getStudentName
+ ) C 7 D -(Ljava/lang/String;)Ljava/lang/StringBuilder; 
+SourceFile Holder.java !                     	 
+     /     *· ±                               /     *´ °                               >     *+µ ±       
+                           
+     ƒ     I² ¶ !² '¶ !² » )Y+· -*´ ¶ /¶ 5¶ 9¶ !² » )Y=· -*´ ¶ ?¶ B¶ 9¶ !±                ,  H         I      E    F
